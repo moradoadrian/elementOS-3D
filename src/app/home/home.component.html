@@ -1,0 +1,38 @@
+<section class="hero">
+    <div class="hero-text">
+        <span class="eyebrow">PRÓXIMA PARADA: La Luna</span>
+        <h1>Entrando a la velocidad de la luz</h1>
+        <p>
+            Explora la galaxia con nuestra avanzada tecnología espacial. Descubre naves innovadoras y
+            robots de última generación diseñados para llevarte más allá de las estrellas.
+        </p>
+        <button class="btn-primary">EXPLORAR MISIÓN</button>
+    </div>
+    <div class="model-container">
+        <model-viewer src="/elemento.glb" camera-controls ar auto-rotate shadow-intensity="1" tone-mapping="neutral"
+            style="width:100%; height:100%; min-height: 300px;"></model-viewer>
+    </div>
+</section>
+
+<section class="fleet-grid">
+    <div class="card">
+        <div class="model-viewer-container">
+            <model-viewer src="/luna.glb" camera-controls ar auto-rotate shadow-intensity="3" tone-mapping="neutral">
+            </model-viewer>
+        </div>
+        <div class="card-content">
+            <h3>Luna</h3>
+            <p>El sátelite natural de la Tierra.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="model-viewer-container">
+            <model-viewer src="/robot.glb" camera-controls ar auto-rotate shadow-intensity="3"
+                tone-mapping="neutral"></model-viewer>
+        </div>
+        <div class="card-content">
+            <h3>Robot</h3>
+            <p>Tecnología avanzada para exploración espacial.</p>
+        </div>
+    </div>
+</section>
