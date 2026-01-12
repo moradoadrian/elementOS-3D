@@ -1,59 +1,51 @@
-# Elementos3dApp
+# Elementos 3D
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.1.
+## Descripción
+Actividad individual: Elemento 3D de la Materia Desarrollo de Recursos Animados
 
-## Development server
+## Objetivos
+Crear un elemento 3D a través de software de diseño.
+Animar un elemento 3D.
+Emplear una animación 3D en un proyecto web.
 
-To start a local development server, run:
+## Caracteristicas
+1.	Diseña una interfaz con HTML que integre una animación 3D. El tema es libre.
+2.	Utilizando blender, modelar un elemento 3D (no deben ser primitivos de 3D). 
+3.	Animar el elemento 3D usando el panel de animación en blender.
+4.	Exportar la animación 3D en archivo glTF 2.0.
+5.	Una vez exportado, utiliza la herramienta model-viewer para poder visualizarlo en navegador web.
+6.	Exporta la escena de model-viewer en archivo ZIP.
+7.	Incorpora el modelo 3D de model-viewer en tu interfaz HTML.
+8.	Realiza la entrega. Esta se debe realizar en formato ZIP y debe incluir toda la carpeta de desarrollo, es decir, los archivos HTML, CSS y GLB utilizados para la creación de la interfaz.
 
+
+
+## Requisitos
+- Node.js 14+
+- npm 
+
+## Instalación
 ```bash
-ng serve
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+## Uso
 ```bash
-ng generate component component-name
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
+## Estructura del Proyecto
+```
+actividad-app/
+├── src/
+├── public/
+modelos 3D (exportados en archivos .glb )
+├── docs/
+Documentacion del proyecto y archivo .blend 
+Documentacion de la actividad
 ```
 
-## Building
+## Contribuir
+Las contribuciones son bienvenidas. Por favor, abre un issue o pull request.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# elementOS-3D
